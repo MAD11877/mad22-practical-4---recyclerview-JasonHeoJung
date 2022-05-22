@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/jason/StudioProjects/mad22-practical-4---recyclerview-JasonHeoJung/app/src/main/res/layout/activity_list.xml" value="0.346875" />
+        <entry key="..\:/Users/jason/StudioProjects/mad22-practical-4---recyclerview-JasonHeoJung/app/src/main/res/layout/activity_main.xml" value="0.21829710144927536" />
+        <entry key="..\:/Users/jason/StudioProjects/mad22-practical-4---recyclerview-JasonHeoJung/app/src/main/res/layout/recycler.xml" value="0.346875" />
+        <entry key="..\:/Users/jason/StudioProjects/mad22-practical-4---recyclerview-JasonHeoJung/app/src/main/res/layout/recycler2.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>

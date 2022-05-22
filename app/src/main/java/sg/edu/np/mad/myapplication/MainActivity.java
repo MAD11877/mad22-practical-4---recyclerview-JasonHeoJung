@@ -19,7 +19,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Button follow = findViewById(R.id.follow);
         TextView name = findViewById(R.id.textView2);
+        TextView des = findViewById(R.id.textView);
+        user user1 = (user) getIntent().getSerializableExtra("key");
         name.setText(user1.name);
+        des.setText(user1.description);
 
         follow.setOnClickListener(new View.OnClickListener(){
             @SuppressLint("SetTextI18n")
