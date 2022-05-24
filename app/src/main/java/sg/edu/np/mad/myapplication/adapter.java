@@ -23,9 +23,22 @@ public class adapter extends RecyclerView.Adapter<ViewHolder> {
         mContext = context;
     }
 
+    @Override
+    public int getItemViewType(int position) {
+        user s = data.get(position);
+        if (s.name.endsWith("7")) {
+            return 0;
+        }
+        return 1;
+    }
+
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        if (viewType==0){
+            View item2 = LayoutInflater.from(parent.getContext()).inflate(R.layout.recycler2, parent, false);
+            return new ViewHolder(item2);
+        }
         View item1 = LayoutInflater.from(parent.getContext()).inflate(R.layout.recycler, parent, false);
         return new ViewHolder(item1);
     }

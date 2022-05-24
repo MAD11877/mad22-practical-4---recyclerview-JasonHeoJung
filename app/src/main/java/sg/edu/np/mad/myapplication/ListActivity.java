@@ -26,9 +26,6 @@ public class ListActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list);
-        AlertDialog.Builder builder;
-        ImageView image = findViewById(R.id.imageView3);
-        builder = new AlertDialog.Builder(this);
         ArrayList<user> userlist = new ArrayList<>();
         for (int i = 0; i < 20; i++){
             user user1 = createUser();
