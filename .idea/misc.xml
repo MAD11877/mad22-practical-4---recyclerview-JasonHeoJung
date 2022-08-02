@@ -4,11 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Projects/mad22-practical-4---recyclerview-JasonHeoJung/app/src/main/res/layout/activity_main.xml" value="0.16847826086956522" />
+        <entry key="..\:/Projects/mad22-practical-4---recyclerview-JasonHeoJung/app/src/main/res/layout/activity_message_group.xml" value="0.10648148148148148" />
+        <entry key="..\:/Projects/mad22-practical-4---recyclerview-JasonHeoJung/app/src/main/res/layout/fragment_group_1.xml" value="0.10648148148148148" />
+        <entry key="..\:/Projects/mad22-practical-4---recyclerview-JasonHeoJung/app/src/main/res/layout/fragment_group_2_.xml" value="0.10648148148148148" />
         <entry key="..\:/Projects/mad22-practical-4---recyclerview-JasonHeoJung/app/src/main/res/layout/recycler2.xml" value="0.264" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

@@ -3,6 +3,7 @@ package sg.edu.np.mad.myapplication;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.view.View;
 import android.widget.Button;
 
@@ -18,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Button follow = findViewById(R.id.follow);
+        Button message = findViewById(R.id.message);
         TextView name = findViewById(R.id.textView2);
         TextView des = findViewById(R.id.textView);
         user user1 = (user) getIntent().getSerializableExtra("key");
@@ -42,6 +44,13 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
 
+        });
+        message.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent messageIntent = new Intent(MainActivity.this, MessageGroup.class);
+                startActivity(messageIntent);
+            }
         });
     }
 }
